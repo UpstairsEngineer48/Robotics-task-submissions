@@ -25,7 +25,7 @@ class WaypointNavigator(Node):
             self.pose_callback,
             10
         )
-
+#i added all pen code using chatgot, its only use is to make star digram pretty, has no effect on rest of code
         self.pen_client = self.create_client(
             SetPen,
             '/turtle1/set_pen'
